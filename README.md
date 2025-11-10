@@ -47,13 +47,9 @@ No advanced math required—just curiosity and a willingness to see numbers in a
 
 The chapters build on each other, so reading in order is recommended. However, if you're already comfortable with number systems, feel free to skip to chapters that interest you most.
 
-### Practice Problems
+### Reading Experience
 
-Each chapter includes practice problems with detailed solutions. Don't just read—work through the examples! Understanding comes from doing.
-
-### Taking Notes
-
-Get a pencil and paper (or stylus and tablet). Work through conversions, try the arithmetic, and make mistakes. That's how learning happens.
+Settle in with your favorite reading spot. This book is designed to be read and enjoyed, with clear explanations and engaging examples throughout. Let the concepts sink in at your own pace.
 
 ## Key Features
 
@@ -61,7 +57,6 @@ Get a pencil and paper (or stylus and tablet). Work through conversions, try the
 - **Engaging narrative**: Educational but entertaining, with humor and cultural context
 - **Practical applications**: Real-world uses from computer science to ancient astronomy
 - **Historical perspective**: Learn why different civilizations chose different bases
-- **Practice problems**: Exercises with detailed solutions in every chapter
 - **Modern relevance**: Understand the technology you use every day
 
 ## What Makes This Book Different
@@ -104,7 +99,7 @@ After completing this book, you'll be prepared to:
 
 ## Contributing
 
-Found a typo? Have a suggestion? Want to add practice problems or examples? Contributions are welcome! Please open an issue or submit a pull request.
+Found a typo? Have a suggestion? Want to add examples or expand on topics? Contributions are welcome! Please open an issue or submit a pull request.
 
 ## License
 
