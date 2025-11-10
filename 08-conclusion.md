@@ -284,17 +284,10 @@ The numbers are waiting, in all their many forms.
 - Math Stack Exchange: math.stackexchange.com
 - Computer Science Stack Exchange: cs.stackexchange.com
 
-### Practice Tools
-
-**Programming:**
+**Programming Tools:**
 - Python REPL: built-in `bin()`, `oct()`, `hex()` functions
 - JavaScript console: `toString(base)` and `parseInt(string, base)`
 - Online coding platforms: repl.it, codepen.io
-
-**Games and Challenges:**
-- Cisco Binary Game: learningnetwork.cisco.com/community/connections/blog/2014/08/06/cisco-binary-game
-- Hex Invaders: hexinvaders.com
-- Project Euler: projecteuler.net (many problems involve base conversions)
 
 ## Acknowledgments
 

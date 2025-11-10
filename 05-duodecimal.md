@@ -427,53 +427,6 @@ Realistically? We're not switching. Base-10 is too entrenched, and computers spe
 
 But intellectually? The dozenalists have a point.
 
-## Practice Problems
-
-**Decimal ↔ Duodecimal:**
-1. Convert 36₁₀ to duodecimal
-2. Convert 144₁₀ to duodecimal
-3. Convert 200₁₀ to duodecimal
-4. Convert 2B₁₂ to decimal
-5. Convert 100₁₂ to decimal
-6. Convert 5A₁₂ to decimal
-
-**Duodecimal Arithmetic:**
-7. 47₁₂ + 3B₁₂ = ?
-8. 70₁₂ + 50₁₂ = ?
-9. What is 1/6 in duodecimal?
-10. What is 1/4 in duodecimal?
-
-<details>
-<summary>Answers</summary>
-
-**Decimal ↔ Duodecimal:**
-1. 36₁₀ = 30₁₂ (3 × 12 + 0)
-2. 144₁₀ = 100₁₂ (12²)
-3. 200₁₀ = 148₁₂
-   - 200 ÷ 12 = 16 r 8
-   - 16 ÷ 12 = 1 r 4
-   - Result: 148₁₂
-
-4. 2B₁₂ = (2 × 12) + 11 = 24 + 11 = 35₁₀
-5. 100₁₂ = 1 × 144 = 144₁₀ (one gross)
-6. 5A₁₂ = (5 × 12) + 10 = 60 + 10 = 70₁₀
-
-**Duodecimal Arithmetic:**
-7. 47₁₂ + 3B₁₂:
-   - 7 + B (11) = 18₁₀ = 16₁₂ (write 6, carry 1)
-   - 4 + 3 + 1 = 8
-   - Result: 86₁₂
-
-8. 70₁₂ + 50₁₂ = 100₁₂
-   - 0 + 0 = 0
-   - 7 + 5 = 10₁₂ (write 10)
-
-9. 1/6 = 2/12 = 0.2₁₂
-
-10. 1/4 = 3/12 = 0.3₁₂
-
-</details>
-
 ## Duodecimal Patterns
 
 **Pattern 1: Powers of 12**

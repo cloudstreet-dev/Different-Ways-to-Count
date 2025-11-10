@@ -309,14 +309,6 @@ Let's verify in decimal:
 - 11 + 13 = 24₁₀
 - 11000₂ = 16 + 8 = 24₁₀ ✓
 
-### Binary Addition Practice
-
-Try these on your own (answers at the end):
-
-1. 101₂ + 11₂ = ?
-2. 1110₂ + 1011₂ = ?
-3. 11111₂ + 1₂ = ?
-
 ## Binary Arithmetic: Multiplication
 
 Binary multiplication is actually easier than decimal multiplication because you only multiply by 0 or 1.
@@ -520,50 +512,6 @@ Now that you understand binary, here are some jokes that actually make sense:
 
 4. "My relationship status is 1100110, which is complicated in binary."
    - Actually, 1100110₂ = 102₁₀, which has nothing to do with "complicated," but it sounds technical
-
-## Practice Problems
-
-Try these conversions and operations:
-
-**Decimal to Binary:**
-1. Convert 42₁₀ to binary
-2. Convert 100₁₀ to binary
-3. Convert 255₁₀ to binary
-
-**Binary to Decimal:**
-4. Convert 10101₂ to decimal
-5. Convert 11111111₂ to decimal
-6. Convert 100000₂ to decimal
-
-**Binary Arithmetic:**
-7. 1010₂ + 0111₂ = ?
-8. 1111₂ - 0101₂ = ?
-9. 110₂ × 101₂ = ?
-
-**Answers to earlier problems:**
-1. 101₂ + 11₂ = 1000₂ (8₁₀)
-2. 1110₂ + 1011₂ = 11001₂ (25₁₀)
-3. 11111₂ + 1₂ = 100000₂ (32₁₀)
-
-<details>
-<summary>Answers to Practice Problems</summary>
-
-**Decimal to Binary:**
-1. 42₁₀ = 101010₂ (32 + 8 + 2)
-2. 100₁₀ = 1100100₂ (64 + 32 + 4)
-3. 255₁₀ = 11111111₂ (all bits in a byte)
-
-**Binary to Decimal:**
-4. 10101₂ = 21₁₀ (16 + 4 + 1)
-5. 11111111₂ = 255₁₀ (128 + 64 + 32 + 16 + 8 + 4 + 2 + 1)
-6. 100000₂ = 32₁₀ (just 2⁵)
-
-**Binary Arithmetic:**
-7. 1010₂ + 0111₂ = 10001₂ (10 + 7 = 17)
-8. 1111₂ - 0101₂ = 1010₂ (15 - 5 = 10)
-9. 110₂ × 101₂ = 11110₂ (6 × 5 = 30)
-
-</details>
 
 ## Counting on Your Fingers in Binary
 

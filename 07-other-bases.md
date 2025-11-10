@@ -395,51 +395,6 @@ Example: Convert 7A₁₆ to octal:
 7A₁₆ → binary: 0111 1010₂ → 01 111 010 → 172₈
 ```
 
-## Practice Problems
-
-**Base-20:**
-1. Convert 100₁₀ to base-20
-2. Convert 50₂₀ to decimal
-
-**Base-3:**
-3. Convert 10₁₀ to base-3
-4. Convert 100₃ to decimal
-
-**Base Conversion:**
-5. Convert 123₄ to base-3
-6. Convert FF₁₆ to base-8
-
-**Applied:**
-7. Why is base-64 useful for email?
-8. Why does base-32 exclude the digit 1?
-
-<details>
-<summary>Answers</summary>
-
-**Base-20:**
-1. 100₁₀ = 50₂₀ (5 × 20 + 0)
-2. 50₂₀ = (5 × 20) + 0 = 100₁₀
-
-**Base-3:**
-3. 10₁₀ = 101₃ (10 ÷ 3 = 3 r1, 3 ÷ 3 = 1 r0, 1 ÷ 3 = 0 r1)
-4. 100₃ = (1 × 9) + (0 × 3) + (0 × 1) = 9₁₀
-
-**Base Conversion:**
-5. 123₄ = 27₁₀ = 1000₃
-   - 123₄ = 1×16 + 2×4 + 3 = 27₁₀
-   - 27 ÷ 3 = 9 r0, 9 ÷ 3 = 3 r0, 3 ÷ 3 = 1 r0, 1 ÷ 3 = 0 r1
-   - Result: 1000₃
-
-6. FF₁₆ = 255₁₀ = 377₈
-   - FF₁₆ → 1111 1111₂ → 011 111 111 → 377₈
-
-**Applied:**
-7. Email systems originally only handled ASCII text. Base-64 converts binary data (like images/attachments) into text characters that can be safely transmitted.
-
-8. Base-32 excludes 1 to avoid confusion with lowercase l and uppercase I (1/l/I look similar in many fonts).
-
-</details>
-
 ## The Philosophy of Bases
 
 After exploring so many systems, a pattern emerges:

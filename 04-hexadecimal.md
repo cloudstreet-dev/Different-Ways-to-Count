@@ -544,63 +544,6 @@ Programmers love embedding words in hex numbers using the digits 0-9 and A-F. So
 
 Available letters: A, B, C, D, E, F. You can also use 0 as O, 1 as I/L, 3 as E, 5 as S. With creativity, you can spell many words.
 
-## Practice Problems
-
-**Decimal ↔ Hex:**
-1. Convert 100₁₀ to hex
-2. Convert 255₁₀ to hex
-3. Convert 1000₁₀ to hex
-4. Convert A3₁₆ to decimal
-5. Convert FF₁₆ to decimal
-6. Convert 1000₁₆ to decimal
-
-**Binary ↔ Hex:**
-7. Convert 10110011₂ to hex
-8. Convert 11111111₂ to hex
-9. Convert 3F₁₆ to binary
-10. Convert ABC₁₆ to binary
-
-**Hex Arithmetic:**
-11. 4B₁₆ + 27₁₆ = ?
-12. FF₁₆ + 1₁₆ = ?
-13. A0₁₆ - 1F₁₆ = ?
-
-**Applied:**
-14. What color is #FF6347? (Describe red, green, blue levels)
-15. What is 0xDEAD in decimal?
-
-<details>
-<summary>Answers</summary>
-
-**Decimal ↔ Hex:**
-1. 100₁₀ = 64₁₆ (6 × 16 + 4)
-2. 255₁₀ = FF₁₆ (15 × 16 + 15)
-3. 1000₁₀ = 3E8₁₆
-4. A3₁₆ = (10 × 16) + 3 = 163₁₀
-5. FF₁₆ = (15 × 16) + 15 = 255₁₀
-6. 1000₁₆ = (1 × 16³) = 4096₁₀
-
-**Binary ↔ Hex:**
-7. 10110011₂ → 1011 0011 → B3₁₆
-8. 11111111₂ → 1111 1111 → FF₁₆
-9. 3F₁₆ → 0011 1111 → 00111111₂
-10. ABC₁₆ → 1010 1011 1100 → 101010111100₂
-
-**Hex Arithmetic:**
-11. 4B₁₆ + 27₁₆ = 72₁₆
-    - B + 7 = 18₁₀ = 12₁₆ (write 2, carry 1)
-    - 4 + 2 + 1 = 7
-12. FF₁₆ + 1₁₆ = 100₁₆
-13. A0₁₆ - 1F₁₆ = 81₁₆
-    - 0 - F: borrow → 10₁₆ - F = 1
-    - 9 - 1 = 8 (after borrowing)
-
-**Applied:**
-14. #FF6347: Red=FF (255, full), Green=63 (99, moderate), Blue=47 (71, low) → Tomato red
-15. 0xDEAD = (13 × 16³) + (14 × 16²) + (10 × 16) + 13 = 53,248 + 3,584 + 160 + 13 = 57,005₁₀
-
-</details>
-
 ## Mental Conversion Tricks
 
 **Hex to Decimal (small numbers):**
