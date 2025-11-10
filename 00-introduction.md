@@ -22,6 +22,7 @@ We'll explore:
 - **Base-16 (Hexadecimal)**: Why programmers see "DEADBEEF" as a perfectly normal number
 - **Base-12 (Duodecimal)**: The Mesopotamian system that almost conquered the world
 - **Base-60 (Sexagesimal)**: Still lurking in your clocks and protractors
+- **Roman Numerals & Non-Positional Systems**: Why they dominated for millennia and why they finally failed
 - And more weird and wonderful counting systems throughout history!
 
 ## Who Should Read This Book?
@@ -36,10 +37,10 @@ Each chapter focuses on a different counting system. You can read them in order 
 
 - **The History**: Where did this system come from? Who used it? Why?
 - **The Math**: How does it actually work? (With plenty of examples)
-- **The Practice**: Exercises to help you think in this new system
 - **The Applications**: Where you'll encounter this in real life
+- **The Connections**: How different systems relate to each other
 
-Don't just read passively. Get a pencil (or stylus, or whatever you kids use these days). Work through the examples. Make mistakes. That's how learning happens.
+This is a book to read and enjoy, not a workbook. Let the concepts sink in at your own pace as you explore how different cultures and contexts have approached the fundamental task of counting.
 
 ## A Warning About Your Brain
 

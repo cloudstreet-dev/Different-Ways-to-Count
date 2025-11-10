@@ -16,7 +16,7 @@ This book explores the fascinating world of different counting systems—from th
 - **Base-16 (Hexadecimal)**: Why programmers see #FF5733 as a color and 0xDEADBEEF as perfectly normal
 - **Base-12 (Duodecimal)**: The ancient system that almost won, and why it's mathematically superior
 - **Base-60 (Sexagesimal)**: The 4,000-year-old Babylonian legacy you use every single day
-- **Other Bases**: From Mayan base-20 to base-64 encoding and beyond
+- **Other Bases**: From Mayan base-20 to base-64 encoding, plus Roman numerals and non-positional systems
 
 ## Who This Book Is For
 
@@ -79,6 +79,7 @@ Unlike typical math textbooks, this book:
 - What color #FF6347 represents (and why)
 - Why the Babylonians were mathematical geniuses
 - How computers store negative numbers
+- Why Roman numerals dominated for over 1,000 years—and why they failed
 - The Dozenal Society's campaign to replace base-10
 
 ## Prerequisites

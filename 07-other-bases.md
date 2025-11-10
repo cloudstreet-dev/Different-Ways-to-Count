@@ -295,6 +295,155 @@ Uses: **0, 1, 2, 3, 4, 5, 6**
 
 Rare. 7 has mystical significance in some cultures (7 days of week, 7 deadly sins), but not practical for a number system (7 is prime, few divisors).
 
+## Non-Positional Systems: A Different Approach
+
+All the systems we've explored so far use **positional notation**—the value of a digit depends on its position. But not all counting systems work this way. Some earlier systems used **additive notation**, where symbols have fixed values regardless of position.
+
+### Unary (Base-1): Tally Marks
+
+The simplest counting system: one mark per item.
+
+```
+| = 1
+|| = 2
+||| = 3
+|||| = 4
+||||| = 5
+```
+
+Most cultures group tally marks by fives for easier reading:
+- |||| with a diagonal line through them
+- Common on prison walls in movies (counting days)
+
+**Advantages:**
+- Extremely simple
+- No place value to understand
+- Universal across cultures
+
+**Disadvantages:**
+- Gets very long very fast
+- No efficient arithmetic operations
+- Impractical for large numbers
+
+Interestingly, unary appears in computer science for certain algorithms and proofs, where simplicity matters more than efficiency.
+
+### Roman Numerals: Additive with Subtractive Tricks
+
+The Roman numeral system dominated Europe for over 1,000 years despite being non-positional.
+
+**Basic symbols:**
+```
+I = 1
+V = 5
+X = 10
+L = 50
+C = 100
+D = 500
+M = 1,000
+```
+
+**How it works:**
+Numbers are formed by combining symbols, generally from largest to smallest:
+- III = 3 (1 + 1 + 1)
+- VI = 6 (5 + 1)
+- VIII = 8 (5 + 1 + 1 + 1)
+- XIII = 13 (10 + 1 + 1 + 1)
+
+**The subtractive principle:**
+When a smaller symbol appears before a larger one, subtract it:
+- IV = 4 (5 - 1, not IIII)
+- IX = 9 (10 - 1)
+- XL = 40 (50 - 10)
+- XC = 90 (100 - 10)
+- CD = 400 (500 - 100)
+- CM = 900 (1,000 - 100)
+
+**Examples:**
+- MCMXCIV = 1994
+  - M (1000) + CM (900) + XC (90) + IV (4)
+- MMXXIV = 2024
+  - MM (2000) + XX (20) + IV (4)
+- LXVII = 67
+  - L (50) + X (10) + V (5) + II (2)
+
+**Why it persisted:**
+- No zero needed (huge advantage before zero was invented)
+- Easy to carve into stone
+- Cultural tradition and authority
+
+**Why it failed:**
+- Arithmetic is nightmarishly difficult (try multiplying XVII × XXIV)
+- No place value makes algorithms impossible
+- Can't represent fractions cleanly
+- Gets verbose for large numbers
+
+**Where you still see it:**
+- Copyright dates in movie credits (MCMXCIX)
+- Clock faces (often using IIII instead of IV for symmetry)
+- Outline numbering (I, II, III, IV...)
+- Super Bowl numbering (Super Bowl LIX = 59)
+- Chapter numbers in books
+- Monarchs and popes (Elizabeth II, Pope John Paul II)
+
+**Fun fact:** There's no year zero in Roman numerals. The calendar went from 1 BC to 1 AD, which causes confusion when calculating date ranges.
+
+### Egyptian Hieroglyphic Numerals
+
+Ancient Egyptians used hieroglyphs for numbers:
+- A stroke for 1
+- A heel bone for 10
+- A coil of rope for 100
+- A lotus flower for 1,000
+- A pointing finger for 10,000
+- A tadpole for 100,000
+- A god holding up the sky for 1,000,000
+
+Like Roman numerals, these were additive. To write 243, you'd draw two rope coils, four heel bones, and three strokes.
+
+### Chinese/Japanese Numerals
+
+Traditional Chinese numerals use different characters for different powers of 10:
+- 一 (yī) = 1
+- 二 (èr) = 2
+- 十 (shí) = 10
+- 百 (bǎi) = 100
+- 千 (qiān) = 1,000
+
+The number 253 would be written: 二百五十三 (two hundred five ten three)
+
+This is partially positional (the order matters) but also partially additive (combining multipliers and power symbols).
+
+### Why Positional Notation Won
+
+Non-positional systems work fine for recording and displaying numbers, but they're terrible for arithmetic:
+
+**Addition in Roman numerals:**
+```
+  LXXIII  (73)
++ CXLIV   (144)
+---------
+   ???
+```
+
+You'd have to:
+1. Convert each to a mental count
+2. Add in your head
+3. Convert back to Roman numerals
+
+Versus positional decimal:
+```
+   73
++ 144
+-----
+  217
+```
+
+The algorithm is mechanical and doesn't require understanding the full number.
+
+Positional notation + zero = mathematical revolution. Once it spread from India through the Arab world to Europe (12th-13th centuries), non-positional systems quickly became obsolete for calculation.
+
+But Roman numerals persist for ceremonial and aesthetic purposes—a 1,500-year legacy refusing to fully die.
+
 ## Exotic and Theoretical Bases
 
 ### Base-φ (Phi-base)
